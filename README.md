@@ -1,4 +1,7 @@
 # Data-Engineering-Typical-Topics
+![image](https://user-images.githubusercontent.com/70054118/228252780-afd744fa-53aa-4181-90e8-b5000ae23412.png)
+
+
 ![image](https://user-images.githubusercontent.com/70054118/228251023-c7bd0e52-457c-4cc2-b509-a6deaa30a5c5.png)
 
 ##  CI/CD Azure Data Factory – DEV to PROD
