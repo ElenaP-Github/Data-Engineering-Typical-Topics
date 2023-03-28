@@ -13,13 +13,16 @@
 
 ![image](https://user-images.githubusercontent.com/70054118/228244368-38d8e3d4-f5d4-4a10-b33a-a06617431be7.png)
 
+You will visualize some messages: publishing (“Deploying messages to the factory”)
+  
+Click on ok box in “Pending changes”, you will see the ARM templates are created. 
+
 ![image](https://user-images.githubusercontent.com/70054118/228244477-52624e04-88a2-409b-a5e1-52821ca269e3.png)
 
-![image](https://user-images.githubusercontent.com/70054118/228244761-d9ba33bb-70b5-4cba-beed-5d769df3875c.png)
 
-  You will visualize some messages: publishing (“Deploying messages to the factory”)
+![image](https://user-images.githubusercontent.com/70054118/228244919-cc968af1-6c96-4c5c-beaa-ef06636d98a4.png)
+
   
-  Click on ok box in “Pending changes”, you will see the ARM templates are created. 
   
 5. Pull request from dev to main (using DF Repos on DevOps) in order to run ARM template 
 
