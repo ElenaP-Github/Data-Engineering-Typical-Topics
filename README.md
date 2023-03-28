@@ -18,11 +18,19 @@
 ![image](https://user-images.githubusercontent.com/70054118/228243093-578bee8a-e3e8-48a5-a271-5e0af2a0aef2.png)
 
   You will visualize some messages: publishing (“Deploying messages to the factory”)
+  
   Click on ok box in “Pending changes”, you will see the ARM templates are created. 
+  
 5. Pull request from dev to main (using DF Repos on DevOps) in order to run ARM template 
+
   Check out that your changes are in main branch when ADF DEV
+
 6. Go to Pipelines in Azure DevOps and run Build_ADF_ARM_Project_name. 
+
 7. Go to Releases in Azure DevOps and create new release for “Deploy ADF Project_Name PROD”
+
 ![image](https://user-images.githubusercontent.com/70054118/228239782-06a4dd36-eddc-4bce-9793-ad8dfb002228.png)
+
 ![image](https://user-images.githubusercontent.com/70054118/228240385-aca6a9a4-36fb-4930-9b5e-985e6333162d.png)
-  Check in Azure Data Factory Prod if your changes were correctly moved! Congratulations!
+
+Check in Azure Data Factory Prod if your changes were correctly moved! Congratulations!
