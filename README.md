@@ -1,6 +1,13 @@
 # Data-Engineering-Typical-Topics
+Azure Synapse will be used as a Datawarehouse for this project, in other words, it is going to have SQL engine to process queries directly to Azure Datalake where the data is stored.   
+We will have both a Serverless and Dedicated SQL Pool. Only in the Serverless environment we will have the possibility of creating External Tables. This means data is still stored in the Datalake, but not in Synapse. Synapse will only have metadata about the data and will read directly from the Datalake.   
+ 
+With the Dedicated SQL Pool we have the possibility of creating tables and storing the data inside Synapse and working as a conventional Datawarehouse.  PBI will connect to Synapse to query the data from the Datalake gold layer and SQL dedicated pool, performance of both solutions will be measured.
+
+![image](https://user-images.githubusercontent.com/70054118/228261459-a3483666-2157-42e9-bdec-9e86de49f741.png)
 
 1. Extract data from Data Lake using Databricks 
+
 ![image](https://user-images.githubusercontent.com/70054118/228260661-175d36c3-f061-4249-b422-e079c1472358.png)
 
 3. Transform data: 
@@ -33,8 +40,6 @@ Intermediate table:
 + Checking updates logic on Synapse
 + Save tables on Synapse
 
-
-![image](https://user-images.githubusercontent.com/70054118/228252780-afd744fa-53aa-4181-90e8-b5000ae23412.png)
 
 
 For Launching daily Databricks' Notebooks, DataFactory will be used, check below.
