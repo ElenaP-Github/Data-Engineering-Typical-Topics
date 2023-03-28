@@ -33,10 +33,13 @@
 
 6. Go to Pipelines in Azure DevOps and run Build_ADF_ARM_Project_name. 
 
+![image](https://user-images.githubusercontent.com/70054118/228247734-b2005bb0-df1b-4902-a3fa-c3f29ef3d8dd.png)
+
 7. Go to Releases in Azure DevOps and create new release for “Deploy ADF Project_Name PROD”
 
 ![image](https://user-images.githubusercontent.com/70054118/228239782-06a4dd36-eddc-4bce-9793-ad8dfb002228.png)
 
 ![image](https://user-images.githubusercontent.com/70054118/228240385-aca6a9a4-36fb-4930-9b5e-985e6333162d.png)
+
 
 Check in Azure Data Factory Prod if your changes were correctly moved! Congratulations!
