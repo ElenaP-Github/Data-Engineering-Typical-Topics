@@ -1,7 +1,9 @@
 # Data-Engineering-Typical-Topics
 
 1. Extract data from Data Lake using Databricks 
-2. Transform data: 
+![image](https://user-images.githubusercontent.com/70054118/228260661-175d36c3-f061-4249-b422-e079c1472358.png)
+
+3. Transform data: 
 
 Intermediate table: 
 + Read functions notebook 
