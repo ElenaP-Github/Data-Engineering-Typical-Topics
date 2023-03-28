@@ -1,13 +1,18 @@
 # Data-Engineering-Typical-Topics
 ![image](https://user-images.githubusercontent.com/70054118/228237253-e7a2b0fe-b71e-49ec-9eb5-db04b4b18629.png)
 
-!![image](https://user-images.githubusercontent.com/70054118/228237714-9089d6fe-e031-4c8d-bc89-5a48553e9f9a.png)
 #####  Azure Data Factory – DEV to PROD
 
 1. Changes on feature/XXX_name based on dev branch  (entorno ADF DEV)
+![image](https://user-images.githubusercontent.com/70054118/228242297-f70bc7db-19f9-418d-ac71-ef6d8ee215bf.png)
 2. After change, click on Save when working on feature/XXX_name (entorno ADF DEV)
 3. Pull request from feature/XXX_name to DEV. (using DataFactory Repos on DevOps)
+![image](https://user-images.githubusercontent.com/70054118/228242742-760b2ea1-1579-4195-a013-b836dd48461e.png)
 4. Publish on dev branch in data factory dev
+![image](https://user-images.githubusercontent.com/70054118/228242852-3a875f1d-c3ee-4dab-9943-ae61ba89a1f7.png)
+![image](https://user-images.githubusercontent.com/70054118/228243022-160c3789-78b5-4243-8045-e8530f5f5eae.png)
+![image](https://user-images.githubusercontent.com/70054118/228243093-578bee8a-e3e8-48a5-a271-5e0af2a0aef2.png)
+
   You will visualize some messages: publishing (“Deploying messages to the factory”)
   Click on ok box in “Pending changes”, you will see the ARM templates are created. 
 5. Pull request from dev to main (using DF Repos on DevOps) in order to run ARM template 
