@@ -13,9 +13,9 @@
 
 ![image](https://user-images.githubusercontent.com/70054118/228244368-38d8e3d4-f5d4-4a10-b33a-a06617431be7.png)
 
-You will visualize some messages: publishing (“Deploying messages to the factory”)
-  
-Click on ok box in “Pending changes”, you will see the ARM templates are created. 
+  You will visualize some messages: publishing (“Deploying messages to the factory”)
+
+  Click on ok box in “Pending changes”, you will see the ARM templates are created. 
 
 ![image](https://user-images.githubusercontent.com/70054118/228244477-52624e04-88a2-409b-a5e1-52821ca269e3.png)
 
@@ -25,8 +25,11 @@ Click on ok box in “Pending changes”, you will see the ARM templates are cre
   
   
 5. Pull request from dev to main (using DF Repos on DevOps) in order to run ARM template 
+![image](https://user-images.githubusercontent.com/70054118/228245579-db38fa4e-3398-46cc-bd01-0fee1de68f80.png)
 
   Check out that your changes are in main branch when ADF DEV
+
+![image](https://user-images.githubusercontent.com/70054118/228246099-e14401a3-5392-47ae-8142-380f26577c52.png)
 
 6. Go to Pipelines in Azure DevOps and run Build_ADF_ARM_Project_name. 
 
