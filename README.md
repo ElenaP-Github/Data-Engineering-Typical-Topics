@@ -29,7 +29,7 @@
 
   Check out that your changes are in main branch when ADF DEV
 
-![image](https://user-images.githubusercontent.com/70054118/228246099-e14401a3-5392-47ae-8142-380f26577c52.png)
+![image](https://user-images.githubusercontent.com/70054118/228248926-a10edd62-d830-4ec6-9c5a-1515231c116b.png)
 
 6. Go to Pipelines in Azure DevOps and run Build_ADF_ARM_Project_name. 
 
