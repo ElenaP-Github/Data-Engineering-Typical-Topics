@@ -1,7 +1,7 @@
 # Data-Engineering-Typical-Topics
 ![image](https://user-images.githubusercontent.com/70054118/228237253-e7a2b0fe-b71e-49ec-9eb5-db04b4b18629.png)
 
-                          ![image](https://user-images.githubusercontent.com/70054118/228237714-9089d6fe-e031-4c8d-bc89-5a48553e9f9a.png)
+!![image](https://user-images.githubusercontent.com/70054118/228237714-9089d6fe-e031-4c8d-bc89-5a48553e9f9a.png)
 #####  Azure Data Factory – DEV to PROD
 
 1. Changes on feature/XXX_name based on dev branch  (entorno ADF DEV)
