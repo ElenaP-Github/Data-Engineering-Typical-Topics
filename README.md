@@ -8,9 +8,13 @@
 2. After change, click on Save when working on feature/XXX_name (entorno ADF DEV)
 3. Pull request from feature/XXX_name to DEV. (using DataFactory Repos on DevOps)
 ![image](https://user-images.githubusercontent.com/70054118/228242742-760b2ea1-1579-4195-a013-b836dd48461e.png)
+
 4. Publish on dev branch in data factory dev
+
 ![image](https://user-images.githubusercontent.com/70054118/228242852-3a875f1d-c3ee-4dab-9943-ae61ba89a1f7.png)
+
 ![image](https://user-images.githubusercontent.com/70054118/228243022-160c3789-78b5-4243-8045-e8530f5f5eae.png)
+
 ![image](https://user-images.githubusercontent.com/70054118/228243093-578bee8a-e3e8-48a5-a271-5e0af2a0aef2.png)
 
   You will visualize some messages: publishing (“Deploying messages to the factory”)
