@@ -1,13 +1,47 @@
 # Data-Engineering-Typical-Topics
 
+1. Extract data from Data Lake using Databricks 
+2. Transform data: 
+
+Intermediate table: .
+•	Read functions notebook 
+•	Retrieve JSON & YAML configuration files
+•	Load raw data from X_name and XX_name containers
+•	Rename fields, cast columns
+•	Data Filter 
+•	Left Joins among internal tables (result tables on PySpark) and external tables (Synapse tables: Synapse as Datawarehouse)
+•	Assignation of surrogate keys
+•	Build fact_table_1
+•	Filters based on user requirements
+•	Joins between files 
+•	Creation of additional fields)
+•	Aggregation tables and final left joins in order to get fact_table_2 and fact_table_3
+•	Save in XXX_name container
+
+3. Load: Final table in Synapse 
+•	Read functions notebook 
+•	Retrieve JSON & YAML configuration files
+•	Load intermediate tables from gold container
+•	Load two dimensional tables from silver (Currency and Delay Reason)
+•	Concatenate: Order_header_id with Order_item_id
+•	Rename fields, cast columns
+•	Currency calculation
+•	Invoices KPI calculation: join to currency table, join to refusal orders, and metrics calculation 
+•	Deliveries KPI calculation: metrics and some aggregations 
+•	Invoices and Deliveries aggregations are left joined to Orders
+•	Orders KPI calculation
+•	Final Fact tables: orders, deliveries, and refusals  
+•	Checking updates logic on Synapse
+•	Save tables on Synapse
+
+
 ![image](https://user-images.githubusercontent.com/70054118/228252780-afd744fa-53aa-4181-90e8-b5000ae23412.png)
 
 
+##  CI/CD Azure Data Factory – DEV to PROD
+
 ![image](https://user-images.githubusercontent.com/70054118/228251023-c7bd0e52-457c-4cc2-b509-a6deaa30a5c5.png)
 
-
-
-##  CI/CD Azure Data Factory – DEV to PROD
 
 1. Changes on feature/XXX_name based on dev branch  (entorno ADF DEV)
 ![image](https://user-images.githubusercontent.com/70054118/228242297-f70bc7db-19f9-418d-ac71-ef6d8ee215bf.png)
