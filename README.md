@@ -7,7 +7,8 @@
 ![image](https://user-images.githubusercontent.com/70054118/228242297-f70bc7db-19f9-418d-ac71-ef6d8ee215bf.png)
 2. After change, click on Save when working on feature/XXX_name (entorno ADF DEV)
 3. Pull request from feature/XXX_name to DEV. (using DataFactory Repos on DevOps)
-![image](https://user-images.githubusercontent.com/70054118/228242742-760b2ea1-1579-4195-a013-b836dd48461e.png)
+
+![image](https://user-images.githubusercontent.com/70054118/228250419-5e47708b-dae0-4222-ae50-2b3b140bddcc.png)
 
 4. Publish on dev branch in data factory dev
 
