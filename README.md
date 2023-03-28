@@ -43,3 +43,5 @@
 
 
 Check in Azure Data Factory Prod if your changes were correctly moved! Congratulations!
+
+![image](https://user-images.githubusercontent.com/70054118/228248748-c5667366-2396-491a-918a-44faaa9c4841.png)
