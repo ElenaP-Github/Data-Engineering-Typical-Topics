@@ -88,7 +88,7 @@ Check in Azure Data Factory Prod if your changes were correctly moved! Congratul
 
 
 
-### PowerBI
+## PowerBI
 
 With PBI we can connect directly to Synapse either Serverless or dedicated pool. To do so, the first step is connecting to Company VPN and as we can see in the following image, press in get data. Filtering by Azure we select one of the two options in yellow and press connect.
 Then we need to provide the following information: 
