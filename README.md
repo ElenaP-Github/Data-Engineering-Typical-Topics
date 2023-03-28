@@ -85,3 +85,15 @@ For Launching daily Databricks' Notebooks, DataFactory will be used, check below
 Check in Azure Data Factory Prod if your changes were correctly moved! Congratulations!
 
 ![image](https://user-images.githubusercontent.com/70054118/228248748-c5667366-2396-491a-918a-44faaa9c4841.png)
+
+
+
+### PowerBI
+
+With PBI we can connect directly to Synapse either Serverless or dedicated pool. To do so, the first step is connecting to Company VPN and as we can see in the following image, press in get data. Filtering by Azure we select one of the two options in yellow and press connect.
+Then we need to provide the following information: 
+
+![image](https://user-images.githubusercontent.com/70054118/228258976-ca425612-6483-4e1f-8adc-ce220c6ab778.png)
+
+![image](https://user-images.githubusercontent.com/70054118/228259010-b38a7e4f-b529-4610-8317-35a518c9195d.png)
+
